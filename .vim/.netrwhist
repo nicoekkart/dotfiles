@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/nico/MEGA/beoi/beOI16/becp-sel/2-1-disks/taskdescription'
+let g:netrw_dirhist_2='/home/nico/MEGA/beoi/beOI16/becp-sel/2-1-disks/datasets/output'
+let g:netrw_dirhist_3='/home/nico/MEGA/beoi/beOI16/becp-sel'
+let g:netrw_dirhist_4='/home/nico/MEGA/beoi/beOI16/becp-sel/0-1-warmup'
+let g:netrw_dirhist_5='/home/nico/MEGA/code/learn/haskell/cis194-again/01-intro'

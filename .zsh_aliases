@@ -1,1 +1,45 @@
-.zsh_aliases
+cr() {
+	cd "$1"
+	if [ -f README ]; then
+		head README
+	fi
+}
+
+cdls() {
+	cd "$1"
+	ls
+}
+
+explore() {
+	cd "$1"
+	nautilus . &> ~/.functionalerror
+}
+
+foxit() {
+	~/opt/foxitsoftware/foxitreader/FoxitReader "$1" &> ~/.functionalerror &
+}
+
+maple() {
+	~/maple2015/bin/xmaple "$PWD/$1"
+}
+
+lookup() {
+	google-chrome "http://google.com/search?q=$*"
+}
+weather() {
+	curl "wttr.in/${1:-Deurne}"
+}
+alias define='sdcv'
+alias check_minerva=' cd ~/MEGA/code/personal/scripts/python/minerva/minerva/;python3.5 -m example_programs.minerva_scrapler;cd -'
+alias minerva=' cd ~/MEGA/code/personal/scripts/python/minerva/minerva/;python3.5 -m example_programs.browser;cd -'
+alias e='vim'
+alias img='eog'
+alias ica='/opt/Citrix/ICAClient/selfservice'
+alias playmusic='nvlc ~/MEGA/music/*/./*'
+alias openserver='python -m SimpleHTTPServer'
+alias get_cool_face='cool-face | xclip -selection c & echo copied a surprise emoticon'
+alias xclip="xclip -selection c"
+alias paste="xclip -selection clipboard -o"
+alias set-brightness="xrandr --output eDP1 --brightness"
+alias change_input="xclip -selection clipboard -o > input"
+alias cls="clear"
