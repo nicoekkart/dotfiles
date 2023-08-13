@@ -1,0 +1,27 @@
+belak/zsh-utils path:prompt
+belak/zsh-utils path:history
+belak/zsh-utils path:utility
+belak/zsh-utils path:editor
+
+sindresorhus/pure
+
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:lib/clipboard.zsh
+ohmyzsh/ohmyzsh path:plugins/asdf
+ohmyzsh/ohmyzsh path:plugins/command-not-found
+ohmyzsh/ohmyzsh path:plugins/copybuffer
+ohmyzsh/ohmyzsh path:plugins/copyfile
+ohmyzsh/ohmyzsh path:plugins/copypath
+ohmyzsh/ohmyzsh path:plugins/extract
+ohmyzsh/ohmyzsh path:plugins/fancy-ctrl-z
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/magic-enter
+
+jimeh/zsh-peco-history
+cakecatz/zsh-peco-ghq
+
+zsh-users/zsh-completions path:src kind:fpath
+belak/zsh-utils path:completion
+
+zsh-users/zsh-autosuggestions kind:defer
+zsh-users/zsh-history-substring-search
